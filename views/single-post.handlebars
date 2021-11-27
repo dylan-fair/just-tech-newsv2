@@ -26,6 +26,7 @@
 
 <div class="comments">
   {{#each post.comments}}
+  {{> comments post.comments}}
   <section class="comment">
     <div class="meta">
       {{user.username}} on {{created_at}}
